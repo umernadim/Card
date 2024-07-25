@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(35, 35, 35);
+}
+.container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 400px 400px;
+    gap: 120px;
+    
+}
+.card{
+    width: 250px;
+    background-color: black;
+    border-radius: 15px 15px;
+    box-shadow: 4px 4px 5px whitesmoke;
+    position: relative;
+    transition: all 0.5s ease;
+}
+.card:hover{
+    transform: translateY(-15px);
+    box-shadow: 6px 4px 5px rgb(254, 217, 171);
+}
+img{
+    height: 250px;
+    width: 250px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+h2,h3{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+.fa-solid {
+    color: yellow;
+}
+.c1{
+    color: white;
+}
+.discount{
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    position: absolute;
+    left: 170px;
+    top: 8px;
+    width: 75px;
+    height: 30px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+/* styling for card 2 */
+.s-discount{
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    position: absolute;
+    left: 170px;
+    top: 8px;
+    width: 75px;
+    height: 30px;
+    box-sizing: border-box;
+    padding: 5px;    
+}
+/* styling for card 3 */
+.sl-discount{
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    position: absolute;
+    left: 170px;
+    top: 8px;
+    width: 75px;
+    height: 30px;
+    box-sizing: border-box;
+    padding: 5px;    
+}
